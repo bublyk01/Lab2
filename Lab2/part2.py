@@ -13,7 +13,7 @@ image_bw = image_sum / image_sum.max()
 
 print(f"B&W image: {image_bw.shape}")
 
-print(f"Maximum value in black and white image: {image_bw.max()}")
+print(f"Normalized value: {image_bw.max()}")
 
 plt.figure(figsize=(8, 4))
 plt.subplot(1, 2, 1)
